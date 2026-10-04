@@ -3,3 +3,6 @@ name = "sensor-pca-reconstruction"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = []
+
+[project.scripts]
+sensor-pca = "sensor_pca.cli:main"
